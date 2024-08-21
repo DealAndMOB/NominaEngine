@@ -1,0 +1,34 @@
+﻿.main-option:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background: var(--color-cuarto);
+    color: #fff;
+}
+
+.main-option {
+    background: #fff;
+    color: var(--eas);
+}
+
+.icons {
+    width: 90%;
+    margin: auto;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0.25rem 0.75rem rgb(0 0 0 / 5%);
+}
+
+.dropdown-item:hover{
+    background:var(--grey);
+}
+
+.acions{
+    height:2.5rem;
+    cursor:pointer;
+}
+
+.acions:hover {
+    height: 2.8rem;
+}

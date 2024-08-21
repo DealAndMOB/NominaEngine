@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SistemaNomina</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/forms.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/components.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Nomina.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow ">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="home" asp-action="index">
+                    <img src="~/Media/ENGINIE.svg" alt="Logo" height="24">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav flex-grow-1 justify-content-center text-center">
+                        <li class="nav-item">
+                            <a class="nav-link " asp-area="" asp-controller="home" asp-action="index">
+                                <b>
+                                    Inicio
+                                </b>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Empleado" asp-action="Index"><b>Empleados</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Empleo" asp-action="Index"><b>Empleos</b></a>
+                        </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
+                        </li> *@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="BonificacionesGastos" asp-action="index">Bonificaciones</a>
+                        </li>
+                        @* <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Prestamo" asp-action="index">Prestamos</a>
+                        </li> *@
+                    </ul>
+                    <ul class="navbar-nav text-center settings">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <b>Configuración</b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item dropdown-item">
+                                    <span class="px-2">Perfil </span>
+                                </li>
+                                <li class="nav-item dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
+                                </li>
+                                <li class="nav-item dropdown-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main" class="container-fluid">
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

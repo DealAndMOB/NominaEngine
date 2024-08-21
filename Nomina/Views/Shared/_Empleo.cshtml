@@ -1,0 +1,176 @@
+﻿<script src="~/js/Table.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const newEmployee = document.getElementById('newEmployee');
+        const Modal = document.getElementById('modalCreate');
+        const close = document.getElementById('closeEmployee');
+        const shadow = document.getElementById('shadow');
+        newEmployee.addEventListener('click', async function () {
+            console.log("hola");
+            Modal.classList.add("active");
+            shadow.style.display = 'block';
+        });
+
+
+        close.addEventListener('click', function () {
+            Modal.classList.remove('active');
+            shadow.style.display = 'none';
+
+        });
+
+    });
+
+    $(document).ready(function () {
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <text>
+                // Mostrar el "modal" añadiendo la clase "active"
+                $("#modalCreate").addClass("active");
+            // Mostrar el elemento de sombra configurando su estilo display a 'block'
+            $('#shadow').css('display', 'block');
+
+            // Mostrar el contenedor de errores de validación
+            $("#validationSummary").removeClass("d-none");
+        </text>
+    }
+    });
+
+
+    // Editar Empleo
+
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const editIcons = document.querySelectorAll('.edit');
+            const editModal = document.getElementById('editEmployee');
+            const closeModal = document.getElementById('closeEditEmployee');
+            const editForm = document.getElementById('editEmployeeForm');
+            const shadow = document.getElementById('shadow');
+
+            editIcons.forEach(icon => {
+                icon.addEventListener('click', async function () {
+                    const row = this.closest('tr');
+                    const id = row.querySelector('.custom-control-input').id.split('-')[1];
+                    const nombre = row.cells[0].innerText;
+                    const descripcion = row.cells[1].innerText;
+
+                    document.getElementById('editId').value = id;
+                    document.getElementById('editNombre').value = nombre;
+                    document.getElementById('editDescripcion').value = descripcion;
+
+                    editModal.classList.add('active');
+                    shadow.style.display = 'block';
+
+                });
+            });
+
+            closeModal.addEventListener('click', function () {
+                editModal.classList.remove('active');
+                shadow.style.display = 'none';
+
+            });
+        });
+
+    $(document).ready(function () {
+
+        $('.custom-control-input').change(function () {
+            var empleoId = $(this).attr('id').split('-')[1];
+            var nuevoEstado = $(this).prop('checked');
+
+            $.ajax({
+                url: '@Url.Action("CambiarEstado", "Empleo")',
+                type: 'POST',
+                data: { id: empleoId, nuevoEstado: nuevoEstado },
+                success: function (response) {
+                    // Actualizar visualmente el switch solo si la solicitud al servidor fue exitosa
+                    if (response.success) {
+                        var switchElement = $('#estadoSwitch-' + empleoId);
+                        switchElement.prop('checked', nuevoEstado);
+                    } else {
+                        // Manejar el error si la solicitud al servidor no fue exitosa
+                        alert('Error al cambiar el estado del empleo.');
+                    }
+                },
+                error: function () {
+                    // Manejar el error si la solicitud al servidor no fue exitosa
+                    alert('Error al cambiar el estado del empleo.');
+                }
+            });
+        });
+    });
+
+    $('#editForm').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var id = button.data('id');
+        var nombre = button.data('nombre');
+        var descripcion = button.data('descripcion');
+        var estado = button.data('estado');
+
+        var modal = $(this);
+        modal.find('#editId').val(id);
+        modal.find('#editNombre').val(nombre);
+        modal.find('#editDescripcion').val(descripcion);
+        modal.find('#editEstado').val(estado.toString());
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Validación para el campo nombre en el modal de creación
+        document.getElementById("createNombre").addEventListener("input", function () {
+            validarLetras(this, "nombreAlert");
+        });
+
+        // Validación para el campo nombre en el modal de edición
+        document.getElementById("editNombre").addEventListener("input", function () {
+            validarLetras(this, "editNombreAlert");
+        });
+
+        // Validación para el campo nombre en el modal de edición
+        document.getElementById("editDescripcion").addEventListener("input", function () {
+            validarLetras(this, "editDescripcionAlert");
+        });
+
+        // Validación para el campo nombre en el modal de edición
+        document.getElementById("createDescripcion").addEventListener("input", function () {
+            validarLetras(this, "createDescripcionAlert");
+        });
+
+        function validarLetras(input, alertId) {
+            var valor = input.value;
+            var alertElement = document.getElementById(alertId);
+
+            if (!/^[A-Za-z\s]+$/.test(valor)) {
+                alertElement.classList.remove("d-none");
+            } else {
+                alertElement.classList.add("d-none");
+            }
+        }
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const getElement = id => document.getElementById(id);
+
+        const newEmployee = getElement("newEmployee");
+        const closeEmployee = getElement("closeEmployee");
+        const formEmployee = getElement("formEmployee");
+
+        if (newEmployee && closeEmployee && formEmployee) {
+            const openModal = () => {
+                formEmployee.classList.add('active');
+                getElement("shadow").style.display = 'block';
+            };
+
+            newEmployee.onclick = openModal;
+
+            const closeModal = () => {
+                formEmployee.classList.remove('active');
+                getElement("shadow").style.display = 'none';
+            };
+
+            closeEmployee.onclick = closeModal;
+        }
+    });
+
+</script>

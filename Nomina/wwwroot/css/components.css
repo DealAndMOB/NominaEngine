@@ -1,0 +1,190 @@
+﻿/*°°°°°°°°°°°°°°°°°°°°°°°°/ TABLAS  \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+table {
+    width: 100%;
+    overflow: auto;
+
+}
+
+.table-cont {
+    flex: 1;
+    overflow: auto;
+}
+
+thead tr, tfoot tr {
+    background-color: var(--color-complementario);
+    color: aliceblue;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--blue);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--color-tercero);
+}
+
+tbody tr:hover {
+    background-color: var(--eas);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.table-nomina {
+    height: 67% !important;
+    overflow: auto;
+}
+.table-nomina table{
+    height:10%;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°/ COMPLEMENTOS  \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+.btn-eliminar {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.edit {
+    height: 2rem;
+}
+
+    .edit path {
+        fill: var(--eas);
+    }
+
+tr:hover .edit path {
+    fill: aliceblue;
+}
+
+
+.close {
+    width: max-content;
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: var(--eas);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.plus {
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+    .plus:hover {
+        height: 2.6rem;
+        cursor: pointer;
+    }
+
+.download {
+    height: 3rem;
+    cursor: pointer;
+}
+
+    .download:hover {
+        height: 3.2rem;
+        cursor: pointer;
+    }
+
+.validation-summary-errors ul li {
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+/*°°°°°°°°°°°°°°°°°°°°°°°°/ COMPONENTS TABLE  \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+.paginas {
+    width: 90%;
+    margin: auto;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+    .pagination a:hover {
+        background-color: #ddd;
+    }
+
+.option {
+    width: 100%;
+    border-radius: 5px;
+    border: solid 1px var(--eas);
+    color: var(--eas);
+}
+
+.eliminar {
+    width: 100%;
+    border-radius: 5px;
+    border: red solid 2px;
+    background: red;
+    color: aliceblue;
+}
+
+
+/*°°°°°°°°°°°°°°°°°°°°°°°°/ SWITCH  \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+/* Estilo base para el switch */
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px; /* Ajustado para ser más pequeño */
+    height: 20px; /* Ajustado para ser más pequeño */
+}
+
+/* Esconde el input original */
+.custom-control-input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+/* Estilo del slider */
+.toggle-switch::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    transition: 0.4s;
+    border-radius: 20px; /* Ajustado para ser más pequeño */
+}
+
+.toggle-switch::after {
+    content: "";
+    position: absolute;
+    left: 2px; /* Ajustado para ser más pequeño */
+    top: 2px; /* Ajustado para ser más pequeño */
+    width: 16px; /* Ajustado para ser más pequeño */
+    height: 16px; /* Ajustado para ser más pequeño */
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+/* Cuando el switch está marcado */
+.custom-control-input:checked + .toggle-switch::before {
+    background-color: #4caf50;
+}
+
+.custom-control-input:checked + .toggle-switch::after {
+    transform: translateX(20px); /* Ajustado para ser más pequeño */
+}

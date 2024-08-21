@@ -1,0 +1,215 @@
+﻿@model IEnumerable<Nomina.Entities.DTOs.EmpleadoDTO>
+@{
+    ViewData["Title"] = "Empleado";
+}
+@* °°°°°°°°°°°°°°°°°°°°°°°°°°°°/ CONTENIDO \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° *@
+
+<section class="shadow" id="shadow"></section>
+
+<h1 class="color-engine py-1 text-center"><b>Empleados</b></h1>
+<section class="bg-light text-center w-97 rounded-5 m-auto h-88 table-cont">
+
+    <button type="button" class="px-3 py-2 m-3 rounded-4 more mb-3" id="newEmployee" data-toggle="modal" data-target="#createModal"><img src="~/Media/SVG/circle-plus-solid.svg" alt="Nuevo empleado" class="new" />Nuevo empleado</button>
+
+    <article class="row w-98 p m text-dark ">
+
+        <div class="col-6 col-xl-3 numerPage1 text-center">
+            <h4 for="rowsPerPage">Filas por página:</h4>
+        </div>
+
+        <div class="col-6 col-xl-1  p-1 d-flex numerPage justify-content-start">
+
+            <select id="rowsPerPage" class="option" onchange="cambiarFilasPorPagina()">
+                <option selected disabled>Resultados</option>
+                <option value="4" class="min">4</option>
+                <option value="3" class="min">3</option>
+                <option value="2" class="min">2</option>
+                <option value="8" class="max d-none">8</option>
+                <option value="5" class="max d-none">5</option>
+                <option value="4" class="max d-none">4</option>
+            </select>
+
+        </div>
+
+    </article>
+    <table class="table w-98" id="empleados">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Empleo</th>
+                <th>Salario semanal</th>
+                <th>Dias Laborales</th>
+                <th>Curp</th>
+                <th>Fecha de Nacimiento</th>
+                <th>Fecha de ingreso</th>
+                <th>Estado</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var empleado in Model)
+            {
+                <tr>
+                    <td>@empleado.nombre</td>
+                    <td>@(ViewBag.EmpleoNombres != null && ViewBag.EmpleoNombres.ContainsKey(empleado.empleoID) ? ViewBag.EmpleoNombres[empleado.empleoID] : "Nombre no encontrado")</td>
+                    <td data-value="@empleado.salarioSem">@empleado.salarioSem.ToString("C", new System.Globalization.CultureInfo("es-MX"))</td>
+                    <td>@empleado.diasLaborales</td>
+                    <td>@empleado.curp</td>
+                    <td>@empleado.fechaNacimiento.ToString("dd/MM/yyyy")</td>
+                    <td>@empleado.fechaIngreso.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <div class="custom-control">
+                            <input type="checkbox" class="custom-control-input" id="estadoSwitch-@empleado.Id" @(empleado.estado ? "checked" : "")>
+                            <label class="custom-control-label toggle-switch" for="estadoSwitch-@empleado.Id"></label>
+                        </div>
+                    </td>
+                    <td>
+                        <svg class="edit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                            <path d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z" />
+                        </svg>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <article class="text-center paginas">
+
+        <div>
+            <h5>Más resultados</h5>
+        </div>
+        <div class="pagination justify-content-center"></div>
+
+    </article>
+
+</section>
+
+
+<!-- Create Modal -->
+<article class="form container tex-center" id="modalCreate">
+
+    <div class="row justify-content-end p">
+        <span id="closeEmployee" class="close">&times;</span>
+    </div>
+
+    <h3><b>Nuevo empleado</b></h3>
+
+    <div class="row mt-4">
+
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="All" class="alert alert-danger d-none p m" id="validationSummary"></div>
+            <label for="createNombre"><b>Nombre</b></label><br />
+            <div class="alert alert-danger d-none" id="nombreAlert" role="alert">
+                Solo se permiten letras y espacios.
+            </div>
+            <input type="text" class="form-imput" id="createNombre" name="nombre" required pattern="[A-Za-z\s]+" title="Solo se permiten letras y espacios">
+            <div class="form-group">
+                <label for="createEmpleoID"><b>Empleo</b></label><br />
+                <select class="form-imput" id="createEmpleoID" name="empleoID" required>
+                    @foreach (var empleo in ViewBag.Empleos)
+                    {
+                        @if(empleo.estado == true)
+                        {
+                            <option value="@empleo.Id">@empleo.Nombre</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="createSalarioSem"><b>Salario Semanal</b></label><br />
+                <input type="number" class="form-imput" id="createSalarioSem" name="salarioSem" required>
+            </div>
+            <div class="form-group">
+                <label for="createDiasLaborales"><b>Días Laborales</b></label><br />
+                <div class="alert alert-danger d-none" id="diasLaboralesAlert" role="alert">
+                    Por favor ingresa un valor entre 1 y 7.
+                </div>
+                <input type="number" class="form-imput" id="createDiasLaborales" name="diasLaborales" required min="1" max="7">
+            </div>
+            <div class="form-group">
+                <label for="createCurp"><b>CURP</b></label><br />
+                <input type="text" class="form-imput" id="createCurp" name="curp" required pattern="[A-Z0-9]+">
+            </div>
+            <div class="form-group">
+                <label for="createFechaNacimiento"><b>Fecha de Nacimiento</b></label><br />
+                <input type="date" class="form-imput" id="createFechaNacimiento" name="fechaNacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="createFechaIngreso"><b>Fecha de Ingreso</b></label><br />
+                <input type="date" class="form-imput" id="createFechaIngreso" name="fechaIngreso" required>
+            </div>
+            
+            <button type="submit" class="submit my-3">Confirmar</button>
+        </form>
+
+    </div>
+
+</article>
+
+<!-- Edit Modal -->
+<article class="form container tex-center" id="editEmployee">
+
+    <div class="row justify-content-end p">
+        <span id="closeEditEmployee" class="close">&times;</span>
+    </div>
+
+    <h3><b>Editar empleo</b></h3>
+
+    <div class="row mt-4">
+
+        <form asp-action="Edit" method="post">
+            <input type="hidden" id="editId" name="id">
+            <div class="form-group">
+                <label for="editNombre"><b>Nombre</b></label><br />
+                <input type="text" class="form-imput" id="editNombre" name="nombre" required pattern="[A-Za-z\s]+" title="Solo se permiten letras y espacios">
+                <div class="alert alert-danger d-none" id="editNombreAlert" role="alert">
+                    Solo se permiten letras y espacios.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="editEmpleoID"><b>Empleo</b></label><br />
+                <select class="form-imput" id="editEmpleoID" name="empleoID" required>
+                    @foreach (var empleo in ViewBag.Empleos)
+                    {
+                        <option value="@empleo.Id">@empleo.Nombre</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="editSalarioSem"><b>Salario Semanal</b></label><br />
+                <input type="number" class="form-imput" id="editSalarioSem" name="salarioSem" required>
+            </div>
+            <div class="form-group">
+                <label for="editDiasLaborales"><b>Días Laborales</b></label><br />
+                <input type="number" class="form-imput" id="editDiasLaborales" name="diasLaborales" required min="1" max="7">
+                <div class="alert alert-danger d-none" id="editDiasLaboralesAlert" role="alert">
+                    Por favor ingresa un valor entre 1 y 7.
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="editCurp"><b>CURP</b></label><br />
+                <input type="text" class="form-imput" id="editCurp" name="curp" required pattern="[A-Z0-9]+">
+            </div>
+            <div class="form-group">
+                <label for="editFechaNacimiento"><b>Fecha de Nacimiento</b></label><br />
+                <input type="date" class="form-imput" id="editFechaNacimiento" name="fechaNacimiento" required>
+            </div>
+            <div class="form-group">
+                <label for="editFechaIngreso"><b>Fecha de Ingreso</b></label><br />
+                <input type="date" class="form-imput" id="editFechaIngreso" name="fechaIngreso" required>
+            </div>
+            <button type="submit" class="submit my-3">Confirmar</button>
+        </form>
+
+    </div>
+
+</article>
+
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_Empleado");
+
+    }
+}

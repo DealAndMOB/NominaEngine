@@ -1,0 +1,175 @@
+﻿<script src="~/js/Table.js"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const newEmployee = document.getElementById('newEmployee');
+        const Modal = document.getElementById('modalCreate');
+        const close = document.getElementById('closeEmployee');
+        const shadow = document.getElementById('shadow');
+        newEmployee.addEventListener('click', async function () {
+            Modal.classList.add("active");
+            shadow.style.display = 'block';
+        });
+
+
+        close.addEventListener('click', function () {
+            Modal.classList.remove('active');
+            shadow.style.display = 'none';
+
+        });
+
+    });
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const editIcons = document.querySelectorAll('.edit');
+        const editModal = document.getElementById('editEmployee');
+        const closeModal = document.getElementById('closeEditEmployee');
+        const editForm = document.getElementById('editEmployeeForm');
+        const shadow = document.getElementById('shadow');
+
+        editIcons.forEach(icon => {
+            icon.addEventListener('click', async function () {
+                const row = this.closest('tr');
+                const id = row.querySelector('.custom-control-input').id.split('-')[1];
+                const nombre = row.cells[0].textContent;
+                const salarioSem = row.cells[2].dataset.value;  
+                const diasLaborales = row.cells[3].textContent;
+                const curp = row.cells[4].textContent;
+                const fechaNacimiento = row.cells[5].dataset.value; const fechaIngreso = row.cells[6].dataset.value;
+
+                document.getElementById('editId').value = id;
+                document.getElementById('editNombre').value = nombre;
+                document.getElementById('editSalarioSem').value = salarioSem;
+                document.getElementById('editDiasLaborales').value = diasLaborales;
+                document.getElementById('editCurp').value = curp;
+                document.getElementById('editFechaNacimiento').value = fechaNacimiento;
+                document.getElementById('editFechaIngreso').value = fechaIngreso;
+
+                editModal.classList.add('active');
+                shadow.style.display = 'block';
+
+            });
+        });
+
+        closeModal.addEventListener('click', function () {
+            editModal.classList.remove('active');
+            shadow.style.display = 'none';
+
+        });
+    });
+
+
+    $(document).ready(function () {
+
+        $('.custom-control-input').change(function () {
+            var empleadoId = $(this).attr('id').split('-')[1];
+            var nuevoEstado = $(this).prop('checked');
+
+            $.ajax({
+                url: '@Url.Action("CambiarEstado", "Empleado")',
+                type: 'POST',
+                data: { id: empleadoId, nuevoEstado: nuevoEstado },
+                success: function (response) {
+                    // Actualizar visualmente el switch solo si la solicitud al servidor fue exitosa
+                    if (response.success) {
+                        var switchElement = $('#estadoSwitch-' + empleadoId);
+                        switchElement.prop('checked', nuevoEstado);
+                    } else {
+                        // Manejar el error si la solicitud al servidor no fue exitosa
+                        alert('Error al cambiar el estado del empleo.');
+                    }
+                },
+                error: function () {
+                    // Manejar el error si la solicitud al servidor no fue exitosa
+                    alert('Error al cambiar el estado del empleo.');
+                }
+            });
+        });
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        // Validación para el campo nombre en el modal de creación
+        document.getElementById("createNombre").addEventListener("input", function () {
+            var input = this.value;
+            var alertElement = document.getElementById("nombreAlert");
+
+            if (!/^[A-Za-z\s]+$/.test(input)) {
+                alertElement.classList.remove("d-none");
+            } else {
+                alertElement.classList.add("d-none");
+            }
+        });
+
+        // Validación para el campo nombre en el modal de edición
+        document.getElementById("editNombre").addEventListener("input", function () {
+            var input = this.value;
+            var alertElement = document.getElementById("editNombreAlert");
+
+            if (!/^[A-Za-z\s]+$/.test(input)) {
+                alertElement.classList.remove("d-none");
+            } else {
+                alertElement.classList.add("d-none");
+            }
+        });
+
+        // Validación para días laborales en el modal de creación
+        document.getElementById("createDiasLaborales").addEventListener("input", function () {
+            validarRango(this, "diasLaboralesAlert");
+        });
+
+        // Validación para días laborales en el modal de edición
+        document.getElementById("editDiasLaborales").addEventListener("input", function () {
+            validarRango(this, "editDiasLaboralesAlert");
+        });
+
+        function validarRango(input, alertId) {
+            var valor = parseInt(input.value, 10);
+            var alertElement = document.getElementById(alertId);
+
+            if (isNaN(valor) || valor < 1 || valor > 7) {
+                alertElement.classList.remove("d-none");
+                input.value = ""; // Borra el valor ingresado
+            } else {
+                alertElement.classList.add("d-none");
+            }
+        }
+
+        // Set max date for fechaIngreso input in create and edit modals
+        var today = new Date().toISOString().split('T')[0];
+        document.getElementById("createFechaIngreso").setAttribute('max', today);
+        document.getElementById("editFechaIngreso").setAttribute('max', today);
+
+        // Validación para el campo CURP en el modal de creación
+        document.getElementById("createCurp").addEventListener("input", function () {
+            var curp = this.value;
+            var fechaNacimiento = calcularFechaNacimiento(curp);
+            document.getElementById("createFechaNacimiento").value = fechaNacimiento;
+        });
+
+        // Validación para el campo CURP en el modal de edición
+        document.getElementById("editCurp").addEventListener("input", function () {
+            var curp = this.value;
+            var fechaNacimiento = calcularFechaNacimiento(curp);
+            document.getElementById("editFechaNacimiento").value = fechaNacimiento;
+        });
+
+        function calcularFechaNacimiento(curp) {
+            if (curp.length < 10) {
+                return "";
+            }
+            var fechaNacimientoParte = curp.substr(4, 6);
+            var year = fechaNacimientoParte.substr(0, 2);
+            var mes = fechaNacimientoParte.substr(2, 2);
+            var dia = fechaNacimientoParte.substr(4, 2);
+            var currentYear = new Date().getFullYear().toString().slice(-2);
+            var siglo = (parseInt(year) > parseInt(currentYear)) ? '19' : '20';
+            return siglo + year + "-" + mes + "-" + dia;
+        }
+
+
+    });
+
+</script>

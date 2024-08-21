@@ -1,0 +1,226 @@
+/*같같같같같같같같같같같같/ CONSTANS  \같같같같같같같같같같같같같같같같같같�*/
+
+:root {
+    --eas: #365f92;
+    --grey: #e7e7e7;
+    --gray: #d4d4d4;
+    --blue: #dbe0e7;
+    --gray-text: rgba(0, 0, 0, .55);
+    --color-complementario: #5b8bbc;
+    --color-tercero: #c7d0dd;
+    --color-cuarto: #b1c0d2;
+}
+
+.color-engine {
+    color: var(--eas)
+}
+
+.bg-engine {
+    background: var(--eas)
+}
+
+.bg-gray {
+    background: var(--gray)
+}
+
+.border-engine {
+    border: solid var(--eas) 3px;
+}
+
+.border-gray {
+    border: solid var(--gray) 3px;
+}
+
+.rounded-5 {
+    border-radius: 20px;
+}
+
+.rounded-4 {
+    border-radius: .4rem;
+}
+
+.rounded-40 {
+    border-radius: 40px;
+}
+
+.p {
+    padding: 0%;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.m {
+    margin: 0;
+}
+
+.w-auto {
+    width: auto;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-97 {
+    width: 97%;
+}
+.w-98 {
+    width: 98%;
+    margin:auto;
+}
+
+.w-98-no-margin {
+    width: 98%;
+}
+
+.h-auto {
+    height: auto;
+}
+.h-15 {
+    height: 15%;
+}
+.h-24 {
+    height: 24%;
+}
+
+.h-23 {
+    height: 23%;
+}
+.h-25 {
+    height: 25%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-45 {
+    height: 45%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-65 {
+    height: 65%;
+}
+
+.h-67 {
+    height: 65%;
+}
+
+.h-73 {
+    height: 73%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.h-85 {
+    height: 85%;
+}
+
+.h-87 {
+    height: 87%;
+}
+
+.h-88 {
+    height: 88%;
+}
+
+.h-95 {
+    height: 95%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+/*같같같같같같같같같같같같/ DOM  \같같같같같같같같같같같같같같같같같같�*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+    overflow: auto;
+    background: var(--gray);
+}
+
+.settings {
+    display: block;
+
+}
+
+.active {
+    border: var(--eas) solid 2px;
+    border-radius: 5px;
+}
+
+.icon-access{
+    width:100%;
+    height:9rem;
+}
+
+.access-item{
+    background:white;
+}
+.access-item:hover {
+    background: var(--color-complementario);
+    cursor:pointer;
+    color:white;
+}
+
+#week {
+    border:var(--eas) 2px solid;
+    border-radius:5px;
+}
+
+@media (max-width: 768px) {
+    .settings {
+        display: none;
+    }
+
+    .w-97 {
+        width: 100%;
+    }
+}
