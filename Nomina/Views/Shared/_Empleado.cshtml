@@ -3,19 +3,24 @@
 <script>
     document.addEventListener("DOMContentLoaded", function () {
         const newEmployee = document.getElementById('newEmployee');
-        const Modal = document.getElementById('modalCreate');
-        const close = document.getElementById('closeEmployee');
+        const modal = document.getElementById('modalCreate');
+        const close = document.getElementById('close');
         const shadow = document.getElementById('shadow');
         newEmployee.addEventListener('click', async function () {
-            Modal.classList.add("active");
+            modal.classList.add("active");
             shadow.style.display = 'block';
         });
 
 
         close.addEventListener('click', function () {
-            Modal.classList.remove('active');
+            modal.classList.remove('active');
             shadow.style.display = 'none';
 
+        });
+
+        shadow.addEventListener('click', function () {
+            modal.classList.remove('active');
+            shadow.style.display = 'none';
         });
 
     });

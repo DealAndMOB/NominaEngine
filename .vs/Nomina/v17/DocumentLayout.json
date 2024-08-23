@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\dilan\\desktop\\sistemanominaproyecto\\nomina\\views\\shared\\_bonificacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\views\\shared\\_bonificacion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\equipo 17\\desktop\\nominaengine\\nomina\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\dilan\\desktop\\sistemanominaproyecto\\nomina\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\views\\empleado\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\equipo 17\\desktop\\nominaengine\\nomina\\wwwroot\\css\\mainpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\wwwroot\\css\\mainpage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\dilan\\desktop\\sistemanominaproyecto\\nomina\\views\\bonificacionesgastos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\views\\bonificacionesgastos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\dilan\\desktop\\sistemanominaproyecto\\nomina\\wwwroot\\js\\tablebonificacion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\wwwroot\\js\\tablebonificacion.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\dilan\\desktop\\sistemanominaproyecto\\nomina\\controllers\\bonificacionesgastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\controllers\\bonificacionesgastoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|c:\\users\\equipo 17\\desktop\\nominaengine\\nomina\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D678AC7C-5217-42C1-8D7F-8B71C54964ED}|Nomina\\Nomina.csproj|solutionrelative:nomina\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,68 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BonificacionesGastosController.cs",
-              "DocumentMoniker": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Controllers\\BonificacionesGastosController.cs",
-              "RelativeDocumentMoniker": "Nomina\\Controllers\\BonificacionesGastosController.cs",
-              "ToolTip": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Controllers\\BonificacionesGastosController.cs",
-              "RelativeToolTip": "Nomina\\Controllers\\BonificacionesGastosController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAgwFIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-11T13:10:36.414Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tableBonificacion.js",
-              "DocumentMoniker": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\tableBonificacion.js",
-              "RelativeDocumentMoniker": "Nomina\\wwwroot\\js\\tableBonificacion.js",
-              "ToolTip": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\tableBonificacion.js",
-              "RelativeToolTip": "Nomina\\wwwroot\\js\\tableBonificacion.js",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAqwHAAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-07-11T12:32:52.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\BonificacionesGastos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Nomina\\Views\\BonificacionesGastos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\BonificacionesGastos\\Index.cshtml",
-              "RelativeToolTip": "Nomina\\Views\\BonificacionesGastos\\Index.cshtml",
-              "ViewState": "AQIAAGAAAAAAAAAAAAAAAGcAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T05:00:29.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Bonificacion.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\Shared\\_Bonificacion.cshtml",
-              "RelativeDocumentMoniker": "Nomina\\Views\\Shared\\_Bonificacion.cshtml",
-              "ToolTip": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\Shared\\_Bonificacion.cshtml",
-              "RelativeToolTip": "Nomina\\Views\\Shared\\_Bonificacion.cshtml",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T15:41:41.787Z",
+              "DocumentIndex": 1,
+              "Title": "mainPage.css",
+              "DocumentMoniker": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\mainPage.css",
+              "RelativeDocumentMoniker": "Nomina\\wwwroot\\css\\mainPage.css",
+              "ToolTip": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\mainPage.css",
+              "RelativeToolTip": "Nomina\\wwwroot\\css\\mainPage.css",
+              "ViewState": "AQIAABoAAAAAAAAAAAAcwCEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-22T23:52:26.027Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Nomina\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Nomina\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAANsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-22T22:25:05.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\Empleado\\Index.cshtml",
-              "RelativeDocumentMoniker": "Nomina\\Views\\Empleado\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Views\\Empleado\\Index.cshtml",
-              "RelativeToolTip": "Nomina\\Views\\Empleado\\Index.cshtml",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAAAJoAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Nomina\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Nomina\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAkwCAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T15:22:31.302Z"
+              "WhenOpened": "2024-08-22T22:24:30.267Z",
+              "EditorCaption": ""
             }
           ]
         }

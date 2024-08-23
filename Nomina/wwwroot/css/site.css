@@ -9,6 +9,7 @@
     --color-complementario: #5b8bbc;
     --color-tercero: #c7d0dd;
     --color-cuarto: #b1c0d2;
+    --celestial: #8fb5e3;
 }
 
 .color-engine {
@@ -204,11 +205,12 @@ main {
 .access-item{
     background:white;
 }
-.access-item:hover {
-    background: var(--color-complementario);
-    cursor:pointer;
-    color:white;
-}
+    .access-item:hover {
+        /*background: var(--color-complementario);*/
+        background: var(--celestial);
+        cursor: pointer;
+        color: white;
+    }
 
 #week {
     border:var(--eas) 2px solid;

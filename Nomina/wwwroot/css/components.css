@@ -84,10 +84,6 @@ tr:hover .edit path {
     cursor: pointer;
 }
 
-    .plus:hover {
-        height: 2.6rem;
-        cursor: pointer;
-    }
 
 .download {
     height: 3rem;

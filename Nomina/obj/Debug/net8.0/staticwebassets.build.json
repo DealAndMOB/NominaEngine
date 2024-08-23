@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KXm856AmzyCYyaX2qmiB9KMlnLJerqSNCH5mfHKGXcU=",
+  "Hash": "fkw18jB5QZJtZxVdiVhIvYZ6pArXieXGjg6n4ErRGLw=",
   "Source": "Nomina",
   "BasePath": "_content/Nomina",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Nomina\\wwwroot",
       "Source": "Nomina",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nomina.styles.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nomina.styles.css",
       "SourceId": "Nomina",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Nomina.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nomina.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Nomina.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nomina.bundle.scp.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nomina.bundle.scp.css",
       "SourceId": "Nomina",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Nomina.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nomina.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Nomina.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\css\\Acceso.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\Acceso.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "css/Acceso.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Acceso.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\css\\components.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\components.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "css/components.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\css\\components.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\css\\forms.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\forms.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "css/forms.css",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\css\\forms.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\css\\mainPage.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\mainPage.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "css/mainPage.css",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\css\\mainPage.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\site.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\favicon.ico",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\form.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\form.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "js/form.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\site.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\Table.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\Table.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "js/Table.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\js\\Table.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\tableBonificacion.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\tableBonificacion.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "js/tableBonificacion.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\js\\tableBonificacion.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\js\\TableMain.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\TableMain.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "js/TableMain.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\js\\TableMain.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\ENGINIE.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\ENGINIE.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/ENGINIE.svg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\ENGINIE.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\Images\\AirCraft.png",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\Images\\AirCraft.png",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/Images/AirCraft.png",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\Images\\AirCraft.png"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\Images\\FondoLogin.jpg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\Images\\FondoLogin.jpg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/Images/FondoLogin.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\Images\\FondoLogin.jpg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\Images\\WallpaperRegistrar.png",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\Images\\WallpaperRegistrar.png",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/Images/WallpaperRegistrar.png",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\Images\\WallpaperRegistrar.png"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\BonificacionGastos.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\BonificacionGastos.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/BonificacionGastos.svg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\BonificacionGastos.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\circle-plus-solid.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\circle-plus-solid.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/circle-plus-solid.svg",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\circle-plus-solid.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Download.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Download.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Download.svg",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\Download.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Empleados.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Empleados.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Empleados.svg",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\Empleados.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Empleos.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Empleos.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Empleos.svg",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\Empleos.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Excel.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Excel.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Excel.svg",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\Excel.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\file-arrow-down-solid.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\file-arrow-down-solid.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/file-arrow-down-solid.svg",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\file-arrow-down-solid.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\nomina.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\nomina.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/nomina.svg",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\nomina.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\pen-to-square-regular.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\pen-to-square-regular.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/pen-to-square-regular.svg",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\pen-to-square-regular.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Plus.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Plus.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Plus.svg",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Media\\SVG\\Plus.svg"
     },
     {
-      "Identity": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\Media\\SVG\\Prestamos.svg",
+      "Identity": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\Prestamos.svg",
       "SourceId": "Nomina",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\wwwroot\\",
       "BasePath": "_content/Nomina",
       "RelativePath": "Media/SVG/Prestamos.svg",
       "AssetKind": "All",

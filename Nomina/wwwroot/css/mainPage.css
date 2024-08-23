@@ -29,6 +29,15 @@
     cursor:pointer;
 }
 
-.acions:hover {
-    height: 2.8rem;
+.table-cont{
+    height:73%;
+}
+
+@media (max-width: 768px) {
+    #access {
+        display:none;
+    }
+    .table-cont {
+        height: 87%;
+    }
 }

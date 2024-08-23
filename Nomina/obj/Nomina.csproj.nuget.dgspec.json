@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj": {}
+    "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj": {
+    "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj",
+        "projectUniqueName": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj",
         "projectName": "Nomina",
-        "projectPath": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj",
-        "packagesPath": "C:\\Users\\Dilan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\",
+        "projectPath": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj",
+        "packagesPath": "C:\\Users\\Equipo 17\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Equipo 17\\Desktop\\NominaEngine\\Nomina\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\VISUAL STUDIO\\VS CACHE\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dilan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Equipo 17\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -80,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
