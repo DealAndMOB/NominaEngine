@@ -2,16 +2,19 @@
 
 :root {
     --eas: #365f92;
-    --grey: #e7e7e7;
+    --grey: #a1acb8;
     --gray: #d4d4d4;
     --blue: #dbe0e7;
     --gray-text: rgba(0, 0, 0, .55);
     --color-complementario: #5b8bbc;
-    --color-tercero: #c7d0dd;
+    --color-tercero: #e5eaff;
     --color-cuarto: #b1c0d2;
     --celestial: #8fb5e3;
 }
 
+.text-grey{
+    color:var(--grey);
+}
 .color-engine {
     color: var(--eas)
 }
@@ -22,6 +25,9 @@
 
 .bg-gray {
     background: var(--gray)
+}
+.bg-grey {
+    background: var(--grey)
 }
 
 .border-engine {
@@ -165,64 +171,8 @@
     height: 90%;
 }
 
-/*같같같같같같같같같같같같/ DOM  \같같같같같같같같같같같같같같같같같같�*/
-* {
-    box-sizing: border-box;
-    margin: 0;
-}
-
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
-    padding: 1rem;
-    overflow: auto;
-    background: var(--gray);
-}
-
-.settings {
-    display: block;
-
-}
-
-.active {
-    border: var(--eas) solid 2px;
-    border-radius: 5px;
-}
-
-.icon-access{
-    width:100%;
-    height:9rem;
-}
-
-.access-item{
-    background:white;
-}
-    .access-item:hover {
-        /*background: var(--color-complementario);*/
-        background: var(--celestial);
-        cursor: pointer;
-        color: white;
-    }
-
-#week {
-    border:var(--eas) 2px solid;
-    border-radius:5px;
-}
-
-@media (max-width: 768px) {
-    .settings {
-        display: none;
-    }
-
-    .w-97 {
-        width: 100%;
-    }
+hr{
+    background:var(--eas);
+    width:90%;
+    margin:auto;
 }
