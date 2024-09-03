@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets\\Media\\SVG\\Prestamos.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\cash.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\cash.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\circle-plus-solid.svg",
       "PackagePath": "staticwebassets\\Media\\SVG\\circle-plus-solid.svg"
     },
@@ -77,6 +81,10 @@
       "PackagePath": "staticwebassets\\Media\\SVG\\pen-to-square-regular.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\user-regular.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\user-regular.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\user1.svg",
       "PackagePath": "staticwebassets\\Media\\SVG\\user1.svg"
     },
@@ -97,10 +105,6 @@
       "PackagePath": "staticwebassets\\css\\layout.css"
     },
     {
-      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\mainPage.css",
-      "PackagePath": "staticwebassets\\css\\mainPage.css"
-    },
-    {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -115,10 +119,6 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\TableMain.js",
       "PackagePath": "staticwebassets\\js\\TableMain.js"
-    },
-    {
-      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\form.js",
-      "PackagePath": "staticwebassets\\js\\form.js"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\js\\site.js",

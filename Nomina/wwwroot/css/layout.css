@@ -77,6 +77,14 @@
 .icon-slide-engine {
     width: 1.7rem;
 }
+
+.nav-link.action, .nav-link.action:hover {
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    color: var(--eas);
+    background-color: var( --color-tercero); 
+}
 /*avatar*/
 .avatar {
     position: relative;

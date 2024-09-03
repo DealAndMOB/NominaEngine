@@ -40,42 +40,47 @@
             $("#validationSummary").removeClass("d-none");
         </text>
     }
-    });
+        });
 
 
     // Editar Empleo
 
 
-        document.addEventListener('DOMContentLoaded', function () {
-            const editIcons = document.querySelectorAll('.edit');
-            const editModal = document.getElementById('editEmployee');
-            const closeModal = document.getElementById('closeEditEmployee');
-            const editForm = document.getElementById('editEmployeeForm');
-            const shadow = document.getElementById('shadow');
+    document.addEventListener('DOMContentLoaded', function () {
+        const editIcons = document.querySelectorAll('.edit');
+        const editModal = document.getElementById('editEmployee');
+        const closeModal = document.getElementById('closeEditEmployee');
+        const editForm = document.getElementById('editEmployeeForm');
+        const shadow = document.getElementById('shadow');
 
-            editIcons.forEach(icon => {
-                icon.addEventListener('click', async function () {
-                    const row = this.closest('tr');
-                    const id = row.querySelector('.custom-control-input').id.split('-')[1];
-                    const nombre = row.cells[0].innerText;
-                    const descripcion = row.cells[1].innerText;
+        editIcons.forEach(icon => {
+            icon.addEventListener('click', async function () {
+                const row = this.closest('tr');
+                const id = row.querySelector('.custom-control-input').id.split('-')[1];
+                const nombre = row.cells[0].innerText;
+                const descripcion = row.cells[1].innerText;
 
-                    document.getElementById('editId').value = id;
-                    document.getElementById('editNombre').value = nombre;
-                    document.getElementById('editDescripcion').value = descripcion;
+                document.getElementById('editId').value = id;
+                document.getElementById('editNombre').value = nombre;
+                document.getElementById('editDescripcion').value = descripcion;
 
-                    editModal.classList.add('active');
-                    shadow.style.display = 'block';
-
-                });
-            });
-
-            closeModal.addEventListener('click', function () {
-                editModal.classList.remove('active');
-                shadow.style.display = 'none';
+                editModal.classList.add('active');
+                shadow.style.display = 'block';
 
             });
         });
+
+        closeModal.addEventListener('click', function () {
+            editModal.classList.remove('active');
+            shadow.style.display = 'none';
+
+        });
+
+        shadow.addEventListener('click', function () {
+            editModal.classList.remove('active');
+            shadow.style.display = 'none';
+        });
+    });
 
     $(document).ready(function () {
 

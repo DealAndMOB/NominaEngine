@@ -1,30 +1,19 @@
 ﻿const getElement = id => document.getElementById(id);
 
-function toggleClasses(elements, addClasses, removeClasses) {
-    if (elements && elements.length > 0) {
-        elements.forEach(element => {
-            if (element) {  // Verifica que el elemento exista
-                addClasses.forEach(cls => element.classList.add(cls));
-                removeClasses.forEach(cls => element.classList.remove(cls));
-            }
-        });
-    }
-}
+const toggleBtn = document.getElementById('toggle-btn');
+const sidebar = document.querySelector('.sidebar');
+const content = document.querySelector('.content');
 
-function handleResize() {
-    const cardStart = getElement("card-start");
-    const cardEnd = getElement("card-end");
-    const accessItems = document.querySelectorAll(".access-item");
+toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    content.classList.toggle('active');
+    content.classList.toggle('d-none');
+});
 
-    if (window.matchMedia("(max-width: 767px)").matches) {
-        toggleClasses([cardStart], [], ["me-3"]);
-        toggleClasses([cardEnd], [], ["ms-3"]);
-        toggleClasses(accessItems, [], ["w-95"]);
-    } else {
-        toggleClasses(accessItems, ["w-95"], []);
-        toggleClasses([cardStart], ["me-3"], []);
-        toggleClasses([cardEnd], ["ms-3"], []);
-    }
+if (window.innerWidth < 500) {
+    sidebar.classList.toggle('active');
+    content.classList.toggle('active');
+
 }
 
 window.addEventListener('resize', handleResize);
@@ -68,3 +57,5 @@ function formatWeek(date) {
     );
     return `del ${startDate} al ${endDate}`;
 }
+
+
