@@ -1,38 +1,36 @@
 ﻿const getElement = id => document.getElementById(id);
-function toggleClasses(elements, addClasses, removeClasses) {
-    elements.forEach(element => {
-        addClasses.forEach(cls => element.classList.add(cls));
-        removeClasses.forEach(cls => element.classList.remove(cls));
-    });
-}
-function handleResize() {
-    const cardStart = getElement("card-start");
-    const cardEnd = getElement("card-end");
-    const accessItems = document.querySelectorAll(".access-item");
-    if (window.matchMedia("(max-width: 767px)").matches) {
-        toggleClasses([cardStart], [], ["me-3"]); 
-        toggleClasses([cardEnd], [], ["ms-3"]); 
-        toggleClasses(accessItems, [], ["w-95"]);
-    } else {
-        toggleClasses(accessItems, ["w-95"], []);
-        toggleClasses([cardStart], ["me-3"], []);
-        toggleClasses([cardEnd], ["ms-3"], []);
 
-    }
-}
-window.addEventListener('resize', handleResize);
-handleResize();
+const toggleBtn = document.getElementById('toggle-btn');
+const sidebar = document.querySelector('.sidebar');
+const content = document.querySelector('.content');
 
-document.getElementById('submit').addEventListener('click', function () {
-    const weekInput = document.getElementById('week').value;
+toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    content.classList.toggle('active');
+    content.classList.toggle('d-none');
+});
+
+if (window.innerWidth < 500) {
+    sidebar.classList.toggle('active');
+    content.classList.toggle('active');
+
+}
+
+
+document.getElementById('submit')?.addEventListener('click', function () {
+    const weekInput = document.getElementById('week')?.value;
     const selectedWeek = document.getElementById('selected-week');
 
-    if (weekInput) {
+    if (weekInput && selectedWeek) {
         const [year, week] = weekInput.split('-W');
-        const date = getDateOfISOWeek(week, year);
-        const formattedWeek = formatWeek(date);
-        selectedWeek.textContent = `Semana seleccionada: ${formattedWeek}`;
-    } else {
+        if (year && week) {
+            const date = getDateOfISOWeek(week, year);
+            const formattedWeek = formatWeek(date);
+            selectedWeek.textContent = `Semana seleccionada: ${formattedWeek}`;
+        } else {
+            selectedWeek.textContent = 'Formato de semana inválido.';
+        }
+    } else if (selectedWeek) {
         selectedWeek.textContent = 'Por favor, seleccione una semana.';
     }
 });
@@ -57,4 +55,5 @@ function formatWeek(date) {
     );
     return `del ${startDate} al ${endDate}`;
 }
+
 

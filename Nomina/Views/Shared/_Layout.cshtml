@@ -3,79 +3,170 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - SistemaNomina</title>
+    <title>@ViewData["Title"] - SistemaNominaTest</title>
+    <link rel="stylesheet" href="~/css/layout.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://kit.fontawesome.com/b0cb49c5f4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/forms.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/components.css" asp-append-version="true" />
+
+    @*
+    <link rel="stylesheet" href="~/css/mainPage.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Nomina.styles.css" asp-append-version="true" />
+    *@
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow ">
-            <div class="container-fluid">
+<body class="bg-gray ">
+
+    <nav class="navbar bg-light shadow justify-content-center container-fluid">
+        <secttion class="row  w-100 ">
+            <div class="col-auto d-flex d-md-none  align-items-center">
                 <a class="navbar-brand" asp-area="" asp-controller="home" asp-action="index">
-                    <img src="~/Media/ENGINIE.svg" alt="Logo" height="24">
+                    <img src="~/Media/ENGINIE.svg" alt="Logo" height="20" class="p">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
-                    <ul class="navbar-nav flex-grow-1 justify-content-center text-center">
-                        <li class="nav-item">
-                            <a class="nav-link " asp-area="" asp-controller="home" asp-action="index">
-                                <b>
-                                    Inicio
-                                </b>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Empleado" asp-action="Index"><b>Empleados</b></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Empleo" asp-action="Index"><b>Empleos</b></a>
-                        </li>
-                        @* <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
-                        </li> *@
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="BonificacionesGastos" asp-action="index">Bonificaciones</a>
-                        </li>
-                        @* <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Prestamo" asp-action="index">Prestamos</a>
-                        </li> *@
-                    </ul>
-                    <ul class="navbar-nav text-center settings">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <b>Configuración</b>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li class="nav-item dropdown-item">
-                                    <span class="px-2">Perfil </span>
-                                </li>
-                                <li class="nav-item dropdown-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
-                                </li>
-                                <li class="nav-item dropdown-item">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="home" asp-action="cerrarsesion">cerrar sesion</a>
-                                </li>
-                            </ul>
-                        </li>
+            </div>
+
+            <div class="col justify-content-end d-flex  align-items-center">
+                <div class="dropdown d-none d-md-block">
+                    <div class="avatar flex-shrink-0 me-3" id="profile-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="~/Media/SVG/user1.svg" alt="User" class="rounded" />
+                    </div>
+                    <button class="btn d-none btn-secondary dropdown-toggle" type="button" id="profile-btn" data-bs-toggle="dropdown" aria-expanded="false">
+                        Perfil
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end " aria-labelledby="profile-btn">
+                        <li><a class="dropdown-item" href="#">Configuración</a></li>
+
+                        <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "cerrarsesion" ? "action" : "")"
+                           asp-area="" asp-controller="home" asp-action="cerrarsesion">
+                            <b>Cerrar Sesión</b>
+                        </a>
+
+                        <li><a class="dropdown-item" href="#">Cerrar Sesión</a></li>
                     </ul>
                 </div>
+                <button id="toggle-btn" class="btn btn-outline-light text-black ms-3 d-block d-md-none">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
             </div>
+
+        </secttion>
+    </nav>
+
+    <section class="container-fluid main">
+        <nav class="sidebar  active">
+            <div class="sidebar-header d-none d-md-block py-2">
+                <a class="navbar-brand" asp-area="" asp-controller="home" asp-action="index">
+                    <img src="~/Media/ENGINIE.svg" alt="Logo" class="mx-3" height="25">
+                </a>
+            </div>
+            <ul class="nav flex-column sidebar-menu mt-3">
+
+                @* ---------- INICIO *@
+                <hr />
+                <li class="nav-item my-2">
+                    <a class="d-flex align-items-center nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="Home" asp-action="Index">
+                        <img src="~/Media/SVG/main.svg" alt="Logo" class="icon-slide me-2">
+                        <b>Inicio</b>
+                    </a>
+                </li>
+
+                @* ---------- EMPLEOS *@
+                <hr />
+                <span class="mx-3 mt-3 text-grey">Gestion empleos</span>
+                <li class="nav-item my-2">
+                    <a class="d-flex align-items-center nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Empleo" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="Empleo" asp-action="Index">
+                        <img src="~/Media/SVG/engine.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Empleos</b>
+                    </a>
+                </li>
+                <hr />
+
+
+                @* ---------- EMPLEADOS *@
+                <span class="mx-3 mt-3 text-grey">Gestion empleados</span>
+                <li class="nav-item my-2">
+                    <a class="d-flex align-items-center nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Empleado" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="Empleado" asp-action="Index">
+                        <img src="~/Media/SVG/empleoye.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Empleos</b>
+                    </a>
+                </li>
+                <hr />
+
+                @* ---------- NOMINA *@
+                <hr />
+                <span class="mx-3 mt-3 text-grey">Control de pagos</span>
+                <li class="nav-item my-2">
+                    <a class="d-flex align-items-center nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Empleado" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="Empleado" asp-action="Index">
+                        <img src="~/Media/SVG/cash.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Nomina</b>
+                    </a>
+                </li>
+
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/bonificacion.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Bonificación de gastos</b>
+                    </a>
+                </li>
+                
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/aguinalddo.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Aguinaldo</b>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/finiquito.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Finiquito</b>
+                    </a>
+                </li>
+                
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/prestamo.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Prestamo</b>
+                    </a>
+                </li>
+
+
+                @* ---------- Perfil movil *@
+                <hr />
+                <span class="mx-3 text-grey d-block d-md-none">Administración</span>
+                <li class="nav-item d-block d-md-none">
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        <img src="~/Media/SVG/user-regular.svg" alt="Logo" class="icon-slide-engine me-2">
+                        Perfil
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Soporte</a></li>
+                        <li><a class="dropdown-item" href="#">Ventas</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
-    </header>
 
-    <main role="main" class="container-fluid">
-        @RenderBody()
-    </main>
+        <main role="main" class="content active">
+            @RenderBody()
+        </main>
+    </section>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <footer class="footer bg-light text-black">
+        <p>&copy; 2024 ENGINE AIR S.A DE C.V. Todos los derechos reservados.</p>
+    </footer>
+
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
