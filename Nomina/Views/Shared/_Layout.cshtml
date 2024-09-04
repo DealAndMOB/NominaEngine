@@ -22,7 +22,7 @@
         <secttion class="row  w-100 ">
             <div class="col-auto d-flex d-md-none  align-items-center">
                 <a class="navbar-brand" asp-area="" asp-controller="home" asp-action="index">
-                    <img src="~/Media/ENGINIE.svg" alt="Logo" height="25" class="p">
+                    <img src="~/Media/ENGINIE.svg" alt="Logo" height="20" class="p">
                 </a>
             </div>
 
@@ -106,19 +106,42 @@
                         <b>Nomina</b>
                     </a>
                 </li>
-                <hr />
 
-                <span class="mx-3 text-grey">Gestion empleos</span>
                 <li class="nav-item my-2">
-                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "Home" && ViewContext.RouteData.Values["action"].ToString() == "Test" ? "action" : "")"
-                       asp-area="" asp-controller="Home" asp-action="Test">
-                        <b>Empleos</b>
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/bonificacion.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Bonificación de gastos</b>
+                    </a>
+                </li>
+                
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/aguinalddo.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Aguinaldo</b>
+                    </a>
+                </li>
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/finiquito.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Finiquito</b>
+                    </a>
+                </li>
+                
+                <li class="nav-item my-2">
+                    <a class="nav-link @(ViewContext.RouteData.Values["controller"].ToString() == "BonificacionesGastos" && ViewContext.RouteData.Values["action"].ToString() == "Index" ? "action" : "")"
+                       asp-area="" asp-controller="BonificacionesGastos" asp-action="Index">
+                        <img src="~/Media/SVG/prestamo.svg" alt="Logo" class="icon-slide-engine me-2">
+                        <b>Prestamo</b>
                     </a>
                 </li>
 
+
                 @* ---------- Perfil movil *@
                 <hr />
-                <span class="mx-3 text-grey">Administración</span>
+                <span class="mx-3 text-grey d-block d-md-none">Administración</span>
                 <li class="nav-item d-block d-md-none">
                     <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                         <img src="~/Media/SVG/user-regular.svg" alt="Logo" class="icon-slide-engine me-2">

@@ -49,6 +49,14 @@
       "PackagePath": "staticwebassets\\Media\\SVG\\Prestamos.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\aguinalddo.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\aguinalddo.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\bonificacion.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\bonificacion.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\cash.svg",
       "PackagePath": "staticwebassets\\Media\\SVG\\cash.svg"
     },
@@ -69,6 +77,10 @@
       "PackagePath": "staticwebassets\\Media\\SVG\\file-arrow-down-solid.svg"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\finiquito.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\finiquito.svg"
+    },
+    {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\main.svg",
       "PackagePath": "staticwebassets\\Media\\SVG\\main.svg"
     },
@@ -79,6 +91,10 @@
     {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\pen-to-square-regular.svg",
       "PackagePath": "staticwebassets\\Media\\SVG\\pen-to-square-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\prestamo.svg",
+      "PackagePath": "staticwebassets\\Media\\SVG\\prestamo.svg"
     },
     {
       "Id": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\wwwroot\\Media\\SVG\\user-regular.svg",

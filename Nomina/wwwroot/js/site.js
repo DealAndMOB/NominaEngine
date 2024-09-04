@@ -16,8 +16,6 @@ if (window.innerWidth < 500) {
 
 }
 
-window.addEventListener('resize', handleResize);
-handleResize();
 
 document.getElementById('submit')?.addEventListener('click', function () {
     const weekInput = document.getElementById('week')?.value;
