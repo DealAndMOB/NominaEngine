@@ -2,22 +2,30 @@
 @{
     ViewData["Title"] = "Empleado";
 }
-@* °°°°°°°°°°°°°°°°°°°°°°°°°°°°/ CONTENIDO \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° *@
-
 <section class="shadow" id="shadow"></section>
+@* °°°°°°°°°°°°°°°°°°°°°°°°°°°°/ CONTENIDO \°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° *@
+<section class="container-fluid bg-light text-center m shadow rounded-4 m-auto">
+    <div class="row d-flex justify-content-between">
+        <div class="col-6 d-flex align-items-center justify-content-start">
+            <h1 class="color-engine text-center ms-2"><b>Empleos</b></h1>
+        </div>
 
-<h1 class="color-engine py-1 text-center"><b>Empleados</b></h1>
-<section class="bg-light text-center w-97 rounded-5 m-auto h-88 table-cont">
+        <div class="col-6 d-flex justify-content-end">
+            <button type="button" class="px-3 py-2 m-3 rounded-4 more mb-3" id="newEmployee" data-toggle="modal" data-target="#createModal"><img src="~/Media/SVG/circle-plus-solid.svg" alt="Nuevo empleado" class="new" />Nuevo empleado</button>
+        </div>
+    </div>
+</section>
+<br />
 
-    <button type="button" class="px-3 py-2 m-3 rounded-4 more mb-3" id="newEmployee" data-toggle="modal" data-target="#createModal"><img src="~/Media/SVG/circle-plus-solid.svg" alt="Nuevo empleado" class="new" />Nuevo empleado</button>
+<section class="container-fluid bg-light text-center m shadow rounded-4 m-auto table-cont">
 
-    <article class="row w-98 p m text-dark ">
+    <article class="row text-dark py-3">
 
         <div class="col-6 col-xl-3 numerPage1 text-center">
             <h4 for="rowsPerPage">Filas por página:</h4>
         </div>
 
-        <div class="col-6 col-xl-1  p-1 d-flex numerPage justify-content-start">
+        <div class="col-6 col-xl-1  p-1 d-flex numerPage justify-content-center">
 
             <select id="rowsPerPage" class="option" onchange="cambiarFilasPorPagina()">
                 <option selected disabled>Resultados</option>
@@ -32,6 +40,7 @@
         </div>
 
     </article>
+
     <table class="table w-98" id="empleados">
         <thead>
             <tr>
@@ -73,7 +82,7 @@
         </tbody>
     </table>
 
-    <article class="text-center paginas">
+    <article class="text-center paginas py-4">
 
         <div>
             <h5>Más resultados</h5>
@@ -85,11 +94,12 @@
 </section>
 
 
+
 <!-- Create Modal -->
 <article class="form container tex-center" id="modalCreate">
 
     <div class="row justify-content-end p">
-        <span id="closeEmployee" class="close">&times;</span>
+        <span id="close" class="close">&times;</span>
     </div>
 
     <h3><b>Nuevo empleado</b></h3>

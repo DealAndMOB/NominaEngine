@@ -72,9 +72,9 @@
 
             var enlacesPaginacion = document.querySelectorAll(clasePaginacion + ' a');
             enlacesPaginacion.forEach(function (enlace) {
-                enlace.classList.remove('active');
+                enlace.classList.remove('showPage');
             });
-            enlacesPaginacion[numeroPagina - 1].classList.add('active');
+            enlacesPaginacion[numeroPagina - 1].classList.add('showPage');
         }
 
         function cambiarFilasPorPagina() {

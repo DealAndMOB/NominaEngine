@@ -1,27 +1,40 @@
 ﻿@{
     ViewData["Title"] = "Inicio";
+
 }
 
-<h1 class="color-engine py-1 text-center"><b>Nomina Engine Air S.A DE C.V</b></h1>
+<section class="container-fluid bg-light text-center m shadow rounded-4 m-auto">
+    <div class="row d-flex justify-content-between">
+        <div class="col-6 d-flex align-items-center justify-content-start">
+            <h1 class="color-engine py-1 text-center"><b>Nomina Engine Air S.A DE C.V</b></h1>
+            @* <h1 class="color-engine text-center ms-2"><b>Empleos</b></h1> *@
+        </div>
 
-<section class="bg-light text-center w-97 rounded-5 m-auto h-73  table-cont mb-4">
+        <div class="col-6 d-flex justify-content-end">
+            <button type="button" class="px-3 py-2 m-3 rounded-4 more mb-3" ><img src="~/Media/SVG/circle-plus-solid.svg" alt="Nueva nomina" class="new me-2" />Nomina</button>
+        </div>
+    </div>
+</section>
+<br />
 
-    <article class="row m-auto mt-2">
-        <div class="col-6">
+
+<section class="container-fluid bg-light text-center m shadow rounded-4 m-auto table-cont">
+    <article class="row m-auto mt-4">
+        <div class="col-12 col-md-6">
             <h5 id="selected-week"></h5>
         </div>
-        <div class="col-6">
-            <div class="row m-auto">
+        <div class="col-12 col-md-6 p">
+            <div class="row m-auto justify-content-center d-flex ">
 
-                <div class="col">
+                <div class="col-auto ">
                     <h4>Semana:</h4>
                 </div>
 
-                <div class="col d-flex align-content-center">
+                <div class="col-auto d-flex align-content-center p-1">
                     <input type="week" id="week" name="week">
                 </div>
 
-                <div class="col">
+                <div class="col p-1">
                     <button class="btn btn-success" id="submit">Confirmar</button>
                 </div>
 
@@ -29,135 +42,83 @@
         </div>
     </article>
 
-    <article class="row mt-2 table-nomina m-auto">
-        <table class="table" id="nomina">
-            <thead>
-                <tr>
-                    <th>Empleado</th>
-                    <th>Sueldo semanal</th>
-                    <th>Días laborados</th>
-                    <th>Sueldo diario</th>
-                    <th>Bonificación de gastos</th>
-                    <th>Total de percepciones</th>
-                    <th>Préstamo</th>
-                    <th>Total de deducciones</th>
-                    <th>Total pagado</th>
-                    <th>Acción</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Filas se agregarán dinámicamente aquí -->
-            </tbody>
-            <tfoot>
-                <tr>
-                    <th>Empleado</th>
-                    <th>Sueldo semanal</th>
-                    <th>Días laborados</th>
-                    <th>Sueldo diario</th>
-                    <th>Bonificación de gastos</th>
-                    <th>Total de percepciones</th>
-                    <th>Préstamo</th>
-                    <th>Total de deducciones</th>
-                    <th>Total pagado</th>
-                    <th>Acción</th>
-                </tr>
-            </tfoot>
-        </table>
+    <article class="row text-dark py-3">
+
+        <div class="col-6 col-xl-3 numerPage1 text-center">
+            <h4 for="rowsPerPage">Filas por página:</h4>
+        </div>
+
+        <div class="col-6 col-xl-1  p-1 d-flex numerPage justify-content-center">
+
+            <select id="rowsPerPage" class="option" onchange="cambiarFilasPorPagina()">
+                <option selected disabled>Resultados</option>
+                <option value="4" class="min">4</option>
+                <option value="3" class="min">3</option>
+                <option value="2" class="min">2</option>
+                <option value="8" class="max d-none">8</option>
+                <option value="5" class="max d-none">5</option>
+                <option value="4" class="max d-none">4</option>
+            </select>
+
+        </div>
+
     </article>
 
-    <article class="row m-auto">
-        <img src="~/Media/SVG/Plus.svg" alt="Alternate Text" class="plus" id="newEmpleado" />
-        <p>Agregar Empleado</p>
+    <table class="table w-98" >
+        <thead>
+            <tr>
+                <th>Empleado</th>
+                <th>Sueldo semanal</th>
+                <th>Días laborados</th>
+                <th>Sueldo diario</th>
+                <th>Bonificación de gastos</th>
+                <th>Total de percepciones</th>
+                <th>Préstamo</th>
+                <th>Total de deducciones</th>
+                <th>Total pagado</th>
+                <th>Acción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Filas se agregarán dinámicamente aquí -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Empleado</th>
+                <th>Sueldo semanal</th>
+                <th>Días laborados</th>
+                <th>Sueldo diario</th>
+                <th>Bonificación de gastos</th>
+                <th>Total de percepciones</th>
+                <th>Préstamo</th>
+                <th>Total de deducciones</th>
+                <th>Total pagado</th>
+                <th>Acción</th>
+            </tr>
+        </tfoot>
+    </table>
+
+    <article class="text-center paginas py-4">
+
+        <div>
+            <h5>Más resultados</h5>
+        </div>
+        <div class="pagination justify-content-center"></div>
+
     </article>
 
     <article class="row m-auto ">
         <div class="col-8 d-none d-md-block"></div>
         <div class="col-6 col-md-2">
-            <img src="~/Media/SVG/Excel.svg" alt="Alternate Text" class="acions" />
+            <img src="~/Media/SVG/Excel.svg" alt="Alternate Text" class="icon" />
             <p>Exportar a excel</p>
         </div>
         <div class="col-6 col-md-2">
-            <img src="~/Media/SVG/file-arrow-down-solid.svg" alt="Alternate Text" class="acions" />
+            <img src="~/Media/SVG/file-arrow-down-solid.svg" alt="Alternate Text" class="icon" />
             <p>Descargar</p>
         </div>
     </article>
 
-
-</section>
-
-
-
-@* ******************   accesos    *********************** *@
-<section class="row text-center w-97 m-auto" id="access">
-
-    <article class="col-12 col-md mt-2  p">
-
-        <div class="rounded-4 access-item me-3 w-95" id="card-start">
-
-            <div class="p-2">
-                <img src="~/Media/SVG/BonificacionGastos.svg" class="icon-access" alt="Alternate Text" />
-            </div>
-            <div class="p-1">
-                <h4>Bonificación de gastos</h4>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-12 col-md mt-2 p">
-
-        <div class="shadow-lg rounded-4 access-item w-95">
-
-            <div class="p-2">
-                <img src="~/Media/SVG/Empleados.svg" class="icon-access" alt="Alternate Text" />
-            </div>
-            <div class="p-1">
-                <h4>Empleados</h4>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-12 col-md mt-2 p">
-
-        <div class="shadow-lg rounded-4 access-item w-95">
-
-            <div class="p-2">
-                <img src="~/Media/SVG/Empleos.svg" class="icon-access" alt="Alternate Text" />
-            </div>
-            <div class="p-1">
-                <h4>Empleos</h4>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-12 col-md mt-2 p">
-
-        <div class="shadow-lg  rounded-4 access-item w-95">
-
-            <div class="p-2">
-                <img src="~/Media/SVG/Prestamos.svg" class="icon-access" alt="Alternate Text" />
-            </div>
-            <div class="p-1">
-                <h4>Prestamos</h4>
-            </div>
-
-        </div>
-    </article>
-
-    <article class="col-12 col-md mt-2 p">
-        <div class="shadow-lg rounded-4 access-item  ms-3 w-95" id="card-end">
-
-            <div class="p-2">
-                <img src="~/Media/SVG/nomina.svg" class="icon-access" alt="Alternate Text" />
-            </div>
-            <div class="p-1">
-                <h4>Finiquitos</h4>
-            </div>
-
-        </div>
-    </article>
 
 </section>
 

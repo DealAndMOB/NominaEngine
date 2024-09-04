@@ -4752,23 +4752,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dilan\\.nuget\\packages\\": {},
-    "D:\\VISUAL STUDIO\\VS CACHE\\NuGetPackages": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj",
       "projectName": "Nomina",
-      "projectPath": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\Nomina.csproj",
-      "packagesPath": "C:\\Users\\Dilan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dilan\\Desktop\\SistemaNominaProyecto\\Nomina\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\Nomina.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\NominaEngine\\Nomina\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VISUAL STUDIO\\VS CACHE\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Dilan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
